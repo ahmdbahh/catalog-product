@@ -1,0 +1,25 @@
+# Hasil build Maven
+target/
+
+# File class hasil kompilasi
+*.class
+
+# Pengaturan IDE
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Rahasia / konfigurasi lokal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+application-local.properties
+
+# File sistem
+.DS_Store
+Thumbs.db
